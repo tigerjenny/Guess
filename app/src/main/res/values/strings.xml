@@ -1,6 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Guess</string>
     <string name="big">Smaller</string>
     <string name="small">Bigger</string>
     <string name="equial">Right</string>
+    <string name="Message">Message</string>
+    <string name="OK">OK</string>
+    <string name="enter_number">Enter Number(1~10)</string>
+    <string name="send">Send</string>
+    <string name="secert_number">Secert Number :</string>
+    <string name="message">Message :</string>
 </resources>

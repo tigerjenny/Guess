@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Guess</string>
+    <string name="Message">訊息</string>
+    <string name="OK">確認</string>
+    <string name="big">小一點</string>
+    <string name="enter_number">請輸入1~10</string>
+    <string name="equial">答對了！</string>
+    <string name="message">提示:</string>
+    <string name="secert_number">祕密數字:</string>
+    <string name="send">送出</string>
+    <string name="small">大一點</string>
+</resources>
