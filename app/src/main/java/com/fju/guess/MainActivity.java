@@ -30,20 +30,20 @@ public class MainActivity extends AppCompatActivity {
         EditText edNumber = (EditText) findViewById(R.id.ed_number);
         int num = Integer.parseInt(edNumber.getText().toString());
             if(num > ran_num) {
-               //Toast.makeText(this,R.string.big,Toast.LENGTH_LONG).show();
-                txMes.setText(R.string.big);
+               Toast.makeText(this,R.string.big,Toast.LENGTH_LONG).show();
+                //txMes.setText(R.string.big);
             }
              else if (num < ran_num) {
-                txMes.setText(R.string.small);
-                //Toast.makeText(this,R.string.small,Toast.LENGTH_LONG).show();
+                //txMes.setText(R.string.small);
+                Toast.makeText(this,R.string.small,Toast.LENGTH_LONG).show();
             }
             else {
-                txMes.setText(R.string.equial);
-               /* new AlertDialog.Builder(this)
+                //txMes.setText(R.string.equial);
+                new AlertDialog.Builder(this)
                         .setTitle(R.string.Message)
                         .setMessage(R.string.equial)
                         .setPositiveButton(R.string.OK,null)
-                        .show();*/
+                        .show();
             }
 
 
